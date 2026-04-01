@@ -7,6 +7,7 @@ public class NavigationCommands {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		System.out.println();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.google.com");
