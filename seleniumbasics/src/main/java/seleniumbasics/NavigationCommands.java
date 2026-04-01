@@ -20,6 +20,7 @@ public class NavigationCommands {
 		Thread.sleep(5000);
 		driver.navigate().refresh();
 		Thread.sleep(5000);
+		System.out.println("Everything Completed !!!!!!!!!!!!!!!");
 		driver.quit();
 
 	}
