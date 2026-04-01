@@ -21,7 +21,7 @@ public class NavigationCommands {
 		driver.navigate().refresh();
 		Thread.sleep(5000);
 		driver.quit();
-		driver.close();
+
 	}
 
 }
