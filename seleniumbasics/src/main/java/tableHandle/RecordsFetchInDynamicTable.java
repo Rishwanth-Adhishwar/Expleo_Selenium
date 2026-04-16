@@ -23,7 +23,7 @@ public class RecordsFetchInDynamicTable {
 		up.sendKeys("rishnavi");
 		WebElement submit=driver.findElement(By.cssSelector("#submit"));
 		submit.click();
-		String name="Tamil A";
+		String name="Zoo Y";
 		List<WebElement> contactNames=driver.findElements(By.xpath("//table[@id='myTable']/tr/td[2]"));
 		int count=contactNames.size();
 		System.out.println("Total Contact: "+count);
@@ -42,12 +42,8 @@ public class RecordsFetchInDynamicTable {
 				for(WebElement row:actualData)
 				{
 					System.out.println(row.getText());
+					break;
 				}
-			}
-			else
-			{
-				System.out.println("Data Not Found on Specified Name");
-				break;
 			}
 			i++;
 		}
